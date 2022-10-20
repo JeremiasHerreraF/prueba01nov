@@ -1,4 +1,5 @@
-import { Global, HttpModule, Module } from '@nestjs/common';
+import { Global, Module } from '@nestjs/common';
+
 import { MiddlewareService } from './middleware.service';
 
 @Global()

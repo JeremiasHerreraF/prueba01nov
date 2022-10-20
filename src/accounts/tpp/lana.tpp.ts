@@ -1,4 +1,6 @@
-import { Global, HttpModule, Module } from "@nestjs/common";
+import { HttpModule } from "@nestjs/axios/dist/http.module";
+import { Global, Module } from "@nestjs/common";
+
 import { ConfigModule, ConfigService, registerAs } from "@nestjs/config";
 
 @Global()
