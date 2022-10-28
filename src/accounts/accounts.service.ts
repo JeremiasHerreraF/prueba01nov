@@ -31,6 +31,7 @@ export class AccountsService {
       return error;
     }
   }
+  
 
   update(id: number, updateAccountDto: UpdateAccountDto) {
     return `This action updates a #${id} account`;
