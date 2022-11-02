@@ -1,7 +1,7 @@
 import { HttpModule } from "@nestjs/axios/dist/http.module";
 import { Global, Module } from "@nestjs/common";
 
-import { ConfigModule, ConfigService, registerAs } from "@nestjs/config";
+import { ConfigModule, ConfigService} from "@nestjs/config";
 
 @Global()
 @Module({
